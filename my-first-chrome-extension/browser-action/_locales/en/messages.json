@@ -1,0 +1,26 @@
+{
+  "extensionDescription": {
+    "message": "Demo - Browser Actions - description"
+  },
+  "extensionName": {
+    "message": "Demo - Browser Actions"
+  },
+  "extensionTitle": {
+    "message": "Demo - Browser Actions - title"
+  },
+  "extensionTitleChanged": {
+    "message": "Demo - Browser Actions - title clicked"
+  },
+  "here": {
+    "message": ">> here <<"
+  },
+  "optionsTitle": {
+    "message": "Options - $section$",
+    "placeholders": {
+      "section": {
+        "content": "$1",
+        "example": "main"
+      }
+    }
+  }
+}
