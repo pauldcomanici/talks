@@ -1,0 +1,40 @@
+{
+  "description": "Demo - Page Actions",
+  "name": "Demo - Page Actions",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "background": {
+    "persistent": false,
+    "scripts": [
+      "js/background.js"
+    ]
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["js/contentScript.js"]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "24": "images/icon24.png",
+    "32": "images/icon32.png",
+    "64": "images/icon64.png",
+    "128": "images/icon128.png"
+  },
+  "page_action": {
+    "default_icon": {
+      "16": "images/icon16.png",
+      "24": "images/icon24.png",
+      "32": "images/icon32.png",
+      "64": "images/icon64.png",
+      "128": "images/icon128.png"
+    },
+    "permissions": [
+      "activeTab",
+      "https://github.com/*"
+    ],
+    "default_popup": "popup.html",
+    "default_title": "Demo - Page Actions title"
+  }
+}
