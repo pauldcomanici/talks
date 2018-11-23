@@ -7,3 +7,4 @@ Talks
 ## Unit testing in JavaScript
 
 
+## Working with canvas API
