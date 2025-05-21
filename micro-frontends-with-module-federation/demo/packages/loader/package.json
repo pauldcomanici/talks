@@ -1,0 +1,22 @@
+{
+  "name": "remote-loader",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "npm run compile",
+    "compile": "rimraf lib && babel --root-mode upward src -d lib"
+  },
+  "peerDependencies": {
+    "prop-types": "15.8.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "prop-types": "15.8.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  }
+}
